@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.windowScene = windowScene
         window?.overrideUserInterfaceStyle = .light
-        window?.rootViewController = ViewController()
+        let contentViewController = ContentViewController()
+        window?.rootViewController = ContainerViewController(rootViewController: contentViewController)
         window?.makeKeyAndVisible()
     }
 
@@ -52,6 +53,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
 }
-

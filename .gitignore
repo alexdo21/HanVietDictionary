@@ -1,1 +1,11 @@
 **/**.DS_Store
+Unihan*
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+UserInterfaceState.xcuserstate
+xcuserdata/
+*.xccheckout
