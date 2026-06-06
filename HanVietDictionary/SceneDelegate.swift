@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.windowScene = windowScene
         window?.overrideUserInterfaceStyle = .light
-        let contentViewController = ContentViewController()
+        let contentViewController = SearchController()
         window?.rootViewController = ContainerViewController(rootViewController: contentViewController)
         window?.makeKeyAndVisible()
     }

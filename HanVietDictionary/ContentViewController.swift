@@ -29,14 +29,9 @@ class ContentViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-        title = "Test"
         let barButtonImage = UIImage(systemName: "line.horizontal.3")
         let barButtonItem = UIBarButtonItem(image: barButtonImage, style: .plain, target: self, action: #selector(handleMenuTapped))
         navigationItem.setLeftBarButton(barButtonItem, animated: false)
-        barButtonItem.tintColor = .black
-        
-//        view.addSubview(testView)
-//        testView.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: view.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor)
     }
     
     @objc private func handleMenuTapped() {
