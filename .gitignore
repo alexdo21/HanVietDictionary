@@ -1,5 +1,6 @@
 **/**.DS_Store
 Unihan*
+output*
 
 # Xcode
 *.xcodeproj/xcuserdata/
