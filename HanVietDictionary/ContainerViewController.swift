@@ -33,6 +33,5 @@ class ContainerViewController: UIViewController {
         barAppearance.titleTextAttributes = [.font: UIFont.systemFont(ofSize: 16), .foregroundColor: UIColor.black]
         navigator.navigationBar.standardAppearance = barAppearance
         navigator.navigationBar.scrollEdgeAppearance = barAppearance
-        
     }
 }

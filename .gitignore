@@ -1,6 +1,8 @@
 **/**.DS_Store
 Unihan*
 output*
+HanVietDictionary/kVietnamese*
+HanVietDictionary.xcodeproj/project.pbxproj
 
 # Xcode
 *.xcodeproj/xcuserdata/
@@ -10,3 +12,4 @@ output*
 UserInterfaceState.xcuserstate
 xcuserdata/
 *.xccheckout
+
